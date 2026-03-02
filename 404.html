@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page Not Found – SparkleHouse</title>
+    <meta name="description"
+        content="The page you're looking for can't be found. Return to SparkleHouse's homepage to find what you need." />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="assets/css/fonts.css" rel="stylesheet" />
+    <link href="assets/css/material_symbols.css" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: { extend: { colors: { "primary": "#27bff1", "background-light": "#f6f8f8", "background-dark": "#101e22" }, fontFamily: { "display": ["Inter", "sans-serif"], "body": ["Inter", "sans-serif"] }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" } } }
+        }
+    </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display">
+    <a class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-primary text-white px-4 py-2 rounded z-[100]"
+        href="#main-content">Skip to main content</a>
+    <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+        <header
+            class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-slate-800 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-sm px-6 py-4 lg:px-40">
+            <div class="flex items-center gap-4">
+                <div class="size-8 text-primary" aria-hidden="true"><span
+                        class="material-symbols-outlined text-3xl">cleaning_services</span></div>
+                <a href="index.html"
+                    class="text-slate-900 dark:text-white text-xl font-bold leading-tight tracking-tight">SparkleHouse</a>
+            </div>
+            <a href="contact.html"
+                class="flex min-w-[100px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-6 bg-primary hover:bg-sky-400 text-white text-sm font-bold leading-normal transition-all shadow-md hover:shadow-lg">
+                <span class="truncate">Book Now</span>
+            </a>
+        </header>
+
+        <main class="flex-1 flex items-center justify-center px-6 py-20" id="main-content">
+            <div class="text-center max-w-lg">
+                <p class="text-9xl font-black text-primary/20 leading-none select-none" aria-hidden="true">404</p>
+                <h1 class="text-3xl lg:text-4xl font-black mt-4 mb-4 text-slate-900 dark:text-white">This page doesn't
+                    exist</h1>
+                <p class="text-slate-600 dark:text-slate-400 mb-10 leading-relaxed">
+                    The link you followed may be outdated, or you might have typed an address incorrectly. Let's get you
+                    back on track.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="index.html"
+                        class="bg-primary hover:bg-sky-400 text-white font-bold py-3 px-8 rounded-xl transition-all shadow-lg">
+                        Go to Homepage
+                    </a>
+                    <a href="contact.html"
+                        class="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-primary text-slate-700 dark:text-slate-300 font-bold py-3 px-8 rounded-xl transition-all">
+                        Contact Us
+                    </a>
+                </div>
+                <nav class="mt-12" aria-label="Helpful links">
+                    <p class="text-sm font-semibold text-slate-500 dark:text-slate-400 mb-4">Or visit one of these
+                        pages:</p>
+                    <ul class="flex flex-wrap gap-4 justify-center text-sm">
+                        <li><a href="index.html#services" class="text-primary hover:underline">Our Services</a></li>
+                        <li><a href="about.html" class="text-primary hover:underline">About SparkleHouse</a></li>
+                        <li><a href="index.html#reviews" class="text-primary hover:underline">Customer Reviews</a></li>
+                        <li><a href="contact.html" class="text-primary hover:underline">Book a Service</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </main>
+
+        <footer class="bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 py-8 px-6 lg:px-40">
+            <div
+                class="mx-auto max-w-7xl flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500 dark:text-slate-500">
+                <p>© 2026 SparkleHouse Care Inc. All rights reserved.</p>
+                <nav class="flex gap-6" aria-label="Legal links">
+                    <a class="hover:text-primary transition-colors" href="terms-of-service.html">Terms</a>
+                    <a class="hover:text-primary transition-colors" href="privacy-policy.html">Privacy</a>
+                    <a class="hover:text-primary transition-colors" href="cookie-policy.html">Cookies</a>
+                </nav>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
